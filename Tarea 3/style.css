@@ -12,6 +12,7 @@ body {
     color: red;
   }
   .player {
+    border-radius: 25px;
     width: 500px; /* Tamaño inicial */
     height: 500px;
     background-color: #1ed760; /* Color inicial */
@@ -31,5 +32,14 @@ body {
 .logo img {
     width: 50px; /* Ajusta el tamaño de la imagen según sea necesario */
     height: auto;
+}
+
+.Imagen_Cancion{
+  /*width: 150x;
+  height: 1000px;*/
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
   

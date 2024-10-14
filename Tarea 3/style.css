@@ -8,6 +8,12 @@ body {
     color: rgb(255, 255, 255);
     font-family:Verdana, Geneva, Tahoma, sans-serif;
   }
+  h3 {
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 25%;
+    font-size: 25px;
+  }
   p {
     color: red;
   }
@@ -38,7 +44,7 @@ body {
   /*width: 150x;
   height: 1000px;*/
   position: absolute;
-  top: 35%;
+  top: 45%;
   left: 50%;
   transform: translate(-50%, -50%);
 }

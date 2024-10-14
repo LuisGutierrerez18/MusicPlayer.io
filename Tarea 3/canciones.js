@@ -1,8 +1,10 @@
+
+const imagenes = ["images/Shivers.png","images/Photograph.png","images/ShapeOfYou.png"]
+const names = ["Shivers","Photograph","Shape of You"]
+let index = 0; 
+
 function cambiarImagen(){
     let img = document.getElementById('imagen')
-    if(img.src.includes("images/Shivers.jpeg")) {
-        img.src = "images/Photograph.jpeg";  // Cambiar a la segunda imagen
-    } else {
-        img.src = "images/Shivers.jpeg";  // Volver a la primera imagen
-    }
+    let name = document.getElementById('nombreCancion')
+    
 }

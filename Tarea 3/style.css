@@ -14,21 +14,28 @@ body {
     margin-left: 25%;
     font-size: 25px;
   }
+  h4{
+    color: rgb(246, 243, 243);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px; 
+    margin-top: 100px; 
+    z-index: 4;
+  }
 
-  .player {
-    position: relative; /* Necesario para el posicionamiento absoluto del fondo */
-    display: flex;
-    flex-direction: column; /* Coloca los elementos en columna */
-    justify-content: center; /* Alinea los elementos en el centro */
-    align-items: center; /* Centra horizontalmente */
-    margin-top: 100px;
+.player {
+  position: relative; /* Necesario para el posicionamiento absoluto del fondo */
+  display: flex;
+  flex-direction: column; /* Coloca los elementos en columna */
+  justify-content: center; /* Alinea los elementos en el centro */
+  align-items: center; /* Centra horizontalmente */
+  margin-top: 100px;
 }
 
 .player img {  
   display: flex;
   position: relative;
   transition: all 0.3s ease;
-  top: -50px; /* Desplazamos la imagen 10px desde la parte superior */
+  top: -30px; /* Desplazamos la imagen 10px desde la parte superior */
   left: 0px; /* Desplazamos la imagen 20px desde la izquierda */
   width: 300px; /* Tamaño de la imagen */
   height: 300px; /* Ajusta según sea necesario */
@@ -57,26 +64,28 @@ body {
     
 }
 button.btn{
-  position: relative;
+  /*position: relative;*/
   z-index: 3; 
-  margin-top: 20px; 
-  padding: 10px 20px; 
-  background-color: rgb(13, 12, 12);
+  margin-top: -30px;
+  margin-left: 120px;
+  width: 40px;
+  height: 40px;
+  background-image: url(images/forward.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   cursor: pointer;
-  font-size: 16px;
-  color: green;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  outline: none;
+  background-color: #1DB954;
 }
 button:hover {
-  background-color: #c4ccc7;
-  color: white;
+  background-color: #1DB954;
+  color: #1DB954;
 }
-.Imagen_Cancion{
-  /*width: 150x;
-  height: 1000px;*/
-  position: absolute;
-  top: 45%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+#nombreCancion {
+  text-align: center; /* Centra el texto */
+  margin-top: 10px; /* Espacio arriba del texto */
+  color: black; /* Color del texto, ajusta según tu diseño */
+  font-size: 24px; /* Tamaño de la fuente */
 }
-  
+

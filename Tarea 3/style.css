@@ -18,15 +18,15 @@ body {
     color: red;
   }
   .player {
-    border-radius: 25px;
-    width: 500px; /* Tamaño inicial */
-    height: 500px;
-    background-color: #1ed760; /* Color inicial */
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%); /* Centramos el cuadrado */
-    transition: all 0.3s ease; /* Añade una transición suave */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    color: #1DB954;
+}
+
+.player img {
+    transition: all 0.3s ease;
 }
   .logo {
     position: absolute;

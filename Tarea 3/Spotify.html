@@ -1,27 +1,26 @@
 <!DOCTYPE html> 
 <html>
     <head>
-        meta
+        <meta charset="UTF-8">
         <title>Spotify</title>
         <link rel="stylesheet" href="style.css">
     </head>
 <body>
    
-    <div class = "Logo"> 
+    <div class="logo"> 
          <img src="images/spotify-white-icon.png" width="50">
-    </div> 
+    </div>  
     
-    <div class="player"></div> <!---->
-    
-    <div class = "Imagen_Cancion">
-        <img id = "imagen" src="images/Shivers.png" alt="Cancion 1" height="200" width="200">
-        <h3 id="Nombre Cancion">Shivers</h3>
-    </div>
-    
-    <h2>Spotify</h2>    
+    <h2>Spotify</h2> 
+    <h3>Prueba</h3>   
 
-   
-    <button type="button" onclick="cambiarImagen()">Haz clic para cambiar el cuadrado</button>
+    <!-- Carrusel de imágenes -->
+    <div class="player">
+        <img id="imagenCarrusel" src="images/Shivers.png" alt="Imagen del carrusel" width="350" height="350">
+    </div>
+
+    <button type="button" onclick="cambiarImagen()">Haz clic para cambiar la imagen</button>
   
+    <script src="canciones.js"></script>
 </body>   
 </html>

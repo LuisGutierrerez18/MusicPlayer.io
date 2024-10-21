@@ -14,9 +14,7 @@ body {
     margin-left: 25%;
     font-size: 25px;
   }
-  p {
-    color: red;
-  }
+
   .player {
     display: flex;
     justify-content: center;
@@ -25,10 +23,25 @@ body {
     color: #1DB954;
 }
 
-.player img {
-    transition: all 0.3s ease;
+.player img {  
+  position: relative;
+  transition: all 0.3s ease;
+  top: -50px; /* Desplazamos la imagen 10px desde la parte superior */
+  left: 0px; /* Desplazamos la imagen 20px desde la izquierda */
+  width: 300px; /* Tamaño de la imagen */
+  height: 300px; /* Ajusta según sea necesario */
+  z-index: 2;
 }
-  .logo {
+.background{
+  width: 500px; 
+  height: 500px;
+  background-color: #1DB954; 
+  position: absolute; 
+  border-radius: 25px; 
+  z-index: 1;
+}
+
+.logo {
     position: absolute;
     margin-top: 50px; /* Agrega espacio arriba */
     margin-left: 30px; /* Agrega espacio a la izquierda */
@@ -38,6 +51,7 @@ body {
 .logo img {
     width: 50px; /* Ajusta el tamaño de la imagen según sea necesario */
     height: auto;
+    
 }
 
 .Imagen_Cancion{

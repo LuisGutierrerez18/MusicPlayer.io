@@ -1,5 +1,5 @@
 let index = 0;
-const imagenes = ["images/Shivers.png","images/Photograph.png","images/ShapeofYou.png","images/ThinkingOutLoud.png",
+const imagenes = ["images/Shivers.png","images/Photograph.png","images/ShapeOfYou.png","images/ThinkingOutLoud.png",
                   "images/Perfect.png", "images/CastleOnTheHill.png"
                 ]
 const names = ["Shivers", "Photograph", "Shape of You", "Thinking Out Loud", "Perfect", "Castle On The Hill"]

@@ -21,6 +21,24 @@ body {
     margin-top: 100px; 
     z-index: 4;
   }
+progress.bar{
+    width: 20%; /* Ajusta el ancho de la barra según necesites */
+    height: 10px; /* Cambia la altura de la barra */
+    margin-top: 20px; /* Espacio superior para separarla de los botones */
+    border-radius: 5px; /* Redondea las esquinas */
+    z-index: 5;
+    appearance: none;
+    background-color: black;
+}  
+progress.bar::-webkit-progress-bar {
+  background-color: #e0e0e0; /* Color de fondo de la barra vacía en Chrome y Safari */
+  border-radius: 5px;
+}
+
+progress.bar::-webkit-progress-value {
+  background-color: black; /* Color de la barra llena en Chrome y Safari */
+  border-radius: 5px;
+}
 
 .player {
   position: relative; /* Necesario para el posicionamiento absoluto del fondo */
@@ -35,8 +53,8 @@ body {
   display: flex;
   position: relative;
   transition: all 0.3s ease;
-  top: -30px; /* Desplazamos la imagen 10px desde la parte superior */
-  left: 0px; /* Desplazamos la imagen 20px desde la izquierda */
+  top: -10px; /* Desplazamos la imagen 10px desde la parte superior */
+  left: center; /* Desplazamos la imagen 20px desde la izquierda */
   width: 300px; /* Tamaño de la imagen */
   height: 300px; /* Ajusta según sea necesario */
   z-index: 2;
